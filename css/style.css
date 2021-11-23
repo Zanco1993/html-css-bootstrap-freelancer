@@ -1,0 +1,37 @@
+.bg-blue{
+    background-color: rgb(15, 50, 87);
+}
+
+.col-white{
+    color: white;
+}
+
+.container {
+    padding-top: 30px;
+}
+
+header{
+    height: 100px;
+}
+
+.bg-green{
+    background-color: rgb(79, 150, 79);
+}
+
+.container.jumbotron .row{
+    justify-content: center;
+}
+
+.content-image{
+    width: 300px;
+}
+
+.jumbotron h1{
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.col-img img{
+    width: 100%;
+    border-radius: 10px;
+}
