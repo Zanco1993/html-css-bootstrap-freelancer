@@ -1,6 +1,9 @@
 .bg-blue{
     background-color: rgb(15, 50, 87);
 }
+.bg-black{
+    color: black;
+}
 
 .tx-none {
     text-decoration: none;
@@ -14,6 +17,70 @@ header{
     height: 100px;
 }
 
+.star {
+    width: 35%;
+    height: 50px;
+    text-align: center;
+}
+
+
+
+.line-white, .line-black {
+    width: 100%;
+    height: 50px;
+    position: relative;
+}
+
+
+.line-white::after {
+    content: "";
+    position: absolute;
+    margin: auto;
+    height: 4px;
+    background-color: #fff;
+    width: 40%;
+    top: 50%;   
+    right: 0;
+}
+
+.line-white::before {
+    content: "";
+    position: absolute;
+    margin: auto;
+    height: 4px;
+    background-color: #fff;
+    width: 40%;
+    top: 50%;
+    left: 0;
+}
+.line-black::after {
+    content: "";
+    position: absolute;
+    margin: auto;
+    height: 4px;
+    background-color: #000;
+    width: 40%;
+    top: 50%;   
+    right: 0;
+}
+
+.line-black::before {
+    content: "";
+    position: absolute;
+    margin: auto;
+    height: 4px;
+    background-color: #000;
+    width: 40%;
+    top: 50%;
+    left: 0;
+}
+
+.line-white i, .line-black i {
+    padding: 14px 0;
+    font-size: 18px;
+}
+
+
 .bg-green{
     background-color: rgb(79, 150, 79);
 }
@@ -23,11 +90,14 @@ header{
 }
 
 .content-image{
-    width: 300px;
+    width: 200px;
+}
+.specifics p {
+    font-size: 10px;
 }
 
 .jumbotron h1{
-    font-size: 36px;
+    font-size: 24px;
     font-weight: bold;
 }
 
