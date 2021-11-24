@@ -35,6 +35,11 @@ header{
     border-radius: 10px;
 }
 
+.content-about-inner {
+    width: 70%;
+    margin: 0 auto;
+}
+
 button{
     border: 1px solid white;
 }
